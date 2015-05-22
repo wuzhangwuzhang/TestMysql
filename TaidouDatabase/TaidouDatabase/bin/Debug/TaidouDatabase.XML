@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TaidouDatabase</name>
+    </assembly>
+    <members>
+        <member name="M:TaidouDatabase.Manage.TestUserManage.GetAllUser">
+            <summary>
+            获取用户信息表的所以信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TaidouDatabase.Manage.TestUserManage.GetuserByUserName(System.String)">
+            <summary>
+            通过姓名获取用户信息
+            </summary>
+            <param name="username"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TaidouDatabase.Manage.TestUserManage.HasUserOrNot(System.String)">
+            <summary>
+            检测用户是否存在数据库
+            </summary>
+            <param name="username"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TaidouDatabase.Manage.TestUserManage.SaveUser(TaidouDatabase.Model.testUser)">
+            <summary>
+            注册用户信息到数据库
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TaidouDatabase.Manage.TestUserManage.matchUserNameAndPwd(System.String,System.String)">
+            <summary>
+            用户密码匹配
+            </summary>
+            <param name="username"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TaidouDatabase.Manage.TestUserManage.deleteUserById(System.Int32)">
+            <summary>
+            删除用户信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:TaidouDatabase.Model.Mapping.TestUserMap">
+            <summary>
+            该类是与数据库的表建立映射
+            </summary>
+        </member>
+    </members>
+</doc>
